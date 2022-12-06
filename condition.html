@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=ba, initial-scale=1.0">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   <!-- cdn icon -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+   <link href="bootstrap.min.css" rel="stylesheet">
+   <link rel="stylesheet" href="condition.css">
+   <title>Document</title>
+</head>
+
+<body>
+
+
+   <style>
+      body {
+         background-image: url(motpath.svg);
+      }
+
+      .dropdown:hover .dropdown-menu {
+         width: 20vw;
+         display: block;
+         margin-top: 0;
+         top: 130%;
+         border-radius: .5rem;
+         box-shadow: 0 2px 5px rgb(0 0 0 / 45%);
+      }
+
+      .contacto:hover .dropdown-menu {
+         width: 75vw;
+         right: 40%;
+         display: block;
+         margin-top: 0;
+      }
+
+      .badge {
+         background-color: black;
+         text-transform: uppercase;
+         font-size: .7.2rem;
+      }
+
+      .price {
+         font-size: 30px;
+         color: #121e25;
+         margin: 0px 7px 0px 0px;
+      }
+   </style>
+
+
+   <div class="fixed-top">
+      <section id="topbar" class="d-flex align-items-center fixed-top">
+         <div class="container-fluid d-flex justify-content-center justify-content-md-between">
+            <div class="contact-info d-flex align-items-center">
+               <i class="bi bi-envelope-fill"></i><a style="text-decoration:none;" href="wilcarserv@gmail.com">
+                  wilcarserv@gmail.com</a>
+               <i class="bi bi-phone-fill phone-icon"></i> +58 41425413013
+            </div>
+            <div class="social-links d-none d-md-block">
+               <a href="blog.html" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Blog" class="twitter"><i
+                     class="bi bi-chat-left-text-fill"></i></a>
+               <a href="#" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Síguenos en Facebook"
+                  class="facebook"><i class="bi bi-facebook"></i></a>
+               <a href="#" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Síguenos en Instagram"
+                  class="instagram"><i class="bi bi-instagram"></i></a>
+               <a href="#" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Contáctanos" class="whatsapp"><i
+                     class="bi bi-whatsapp"></i></a>
+            </div>
+         </div>
+      </section>
+
+      <!-- ======= Header ======= -->
+      <header id="header" class="fixed-top d-flex align-items-center shadow">
+         <div class="container d-flex align-items-center justify-content-between">
+            <h1 class="logo"><a href="index.html">AloHost</a></h1>
+            <nav id="navbar" class="navbar">
+               <ul>
+                  <li class="nav-link scrollto"><a href="index.html">Inicio</a></li>
+                  <li class="dropdown"><a href="#">Hosting <b class="badge ms-1">web</b><i
+                           class="bi bi-chevron-down"></i></a>
+                     <ul>
+                        <li><a href="hosting.html">Web Hosting <br> Alojamiento web de alto perfomance</a></li>
+                        <li><a href="reseller.html">Web Reseller <br> Planes para revendores de web hosting</a></li>
+                        <li><a href="dominio.html">Dominios <br> Registra tu marca con un dominio</a></li>
+                     </ul>
+                  </li>
+                  <li class="dropdown"><a href="#">Servidores <b class="badge ms-1">cloud</b><i
+                           class="bi bi-chevron-down"></i></a>
+                     <ul>
+                        <li><a href="dedicados.html">Servidores Dedicados <br> Todo el poder de un servidor dedicado</a>
+                        </li>
+                        <li><a href="vps.html">Servidores VPS <br> Planes cloud VPS al mejor costo</a></li>
+                     </ul>
+                  </li>
+                  <li><a href="web.html">Páginas <b class="badge ms-1">Diseño</b></a>
+                  </li>
+                  <li class="dropdown"><a href="#">Contacto<b class="badge ms-1"> Soporte</b><i
+                           class="bi bi-chevron-down"></i></a>
+                     <ul>
+                        <li><a href="pay.html">Métodos de pago</a></li>
+                        <li><a href="contacto.html">Contáctanos</a></li>
+                        <li><a href="condition.html">Legales</a></li>
+                     </ul>
+                  </li>
+               </ul>
+               <i class="bi bi-list mobile-nav-toggle"></i>
+         </div>
+      </header>
+   </div>
+   
+   <section id="home" >
+     <div class="container">
+         <div class="row align-items-center">
+             <div class="col-sm-12 col-lg-12">
+                 <div class="home_text text-center text-white" style="position:relative;">
+                     <h1 style="font-size:3.9rem !important;">TÉRMINIOS Y CONDICIONES</h1>
+                 </div>
+             </div>
+         </div>
+     </div>
+ </section>
+
+   <section class="py-4">
+      <div class="container bg-light border rounded-4 p-4">
+         <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Terminos Generales</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Politicas de uso</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Acuerdo de servicio</button>
+            </li>
+          </ul>
+          <hr>
+          <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+               <h3 class="mb-2 text-start fst-italic">
+                  Sección 1. Terminos Generales
+               </h3>
+
+               
+               <p>1. Este acuerdo reemplaza cualquier otro acuerdo escrito u oral alcanzado entre ALOHOST y el Cliente.
+               </p>
+
+               <p>2. ALOHOST proporcionará productos y servicios a cambio del pago de tarifas y el cumplimiento de los
+                  términos y condiciones de este Acuerdo.</p>
+
+               <p>3. ALOHOST se reserva el derecho de cancelar el servicio por cualquier motivo con veinticuatro horas
+                  de anticipación. ALOHOST no pierde ningún derecho en virtud de este acuerdo al finalizar el servicio.
+                  ALOHOST se reserva el derecho de rechazar el servicio a cualquier persona en cualquier momento y por
+                  cualquier motivo.</p>
+
+               <p>4. ALOHOST proporciona alojamiento y servicios relacionados (incluidos, entre otros, servidores
+                  dedicados, colocacion de servidores, servidores privados virtuales y servicios relacionados) a cambio
+                  de pagos facturados generalmente de forma mensual (aunque algunos servicios pueden facturarse a más
+                  largo plazo). Todos los servicios se facturan en incrementos completos del plazo de facturación (con
+                  la excepción del primer mes para ciertos planes).</p>
+
+               <p>5. Al registrarse y enviar el primer pago, el Cliente certifica que ha leído y acepta regirse por el
+                  Acuerdo. El pago y la utilización de los productos y servicios de ALOHOST significa que el Cliente ha
+                  leído y acepta regirse por la versión actual del Acuerdo. La versión actual del Acuerdo se puede
+                  obtener en la página web de ALOHOST en ALOHOST.com. El cliente reconoce que es su responsabilidad
+                  buscar actualizaciones del Acuerdo en la página web de ALOHOST. Estos términos se modificaron por
+                  última vez el 28 de octubre de 2022.</p>
+
+               <p>6. La falta de pago a tiempo puede resultar en la interrupción de todos los servicios en la cuenta del
+                  Cliente. Si se interrumpe el servicio del Cliente, se puede imponer una tarifa de reactivación de $ 10
+                  por servicio a discreción de ALOHOST. La interrupción del servicio no cancela el servicio del Cliente.
+                  ALOHOST puede cancelar los servicios por falta de pago después de (12) horas.</p>
+
+               <p>7. Si se cancela el servicio, el cliente no tiene derecho a un reembolso y se le prohíbe cualquier uso
+                  adicional de los servicios de ALOHOST.</p>
+
+               <p>8. Todas las ventas son definitivas. No se proporcionarán reembolsos por ningún producto o servicio.
+               </p>
+
+               <p>9. Todos los pedidos deben incluir el nombre real, la dirección postal, el número de teléfono y la
+                  dirección de correo electrónico del Cliente. Proporcionar información falsa puede resultar en la
+                  cancelación inmediata de la cuenta del Cliente sin reembolso.</p>
+
+               <p>10. Los servidores dedicados y los servidores privados virtuales son servicios no administrados. Los
+                  servicios no administrados solo ofrecen soporte para problemas de red, energía y hardware. La
+                  asistencia para la administración del sistema está disponible como parte de nuestros servicios de
+                  administración del servidor, que es un servicio adicional que debe adquirirse como complemento.</p>
+
+               <p>11. CADA UNA DE LAS PARTES AQUÍ RENUNCIA IRREVOCABLEMENTE A CUALQUIER DERECHO A JUICIO POR JURADO EN
+                  CUALQUIER PROCEDIMIENTO LEGAL QUE SURJA O ESTÉ RELACIONADO CON ESTE ACUERDO O LAS TRANSACCIONES
+                  CONTEMPLADAS AQUÍ.</p>
+            </div>
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+               <h3 class="mb-2 fst-italic">
+                  Seccion 2. Politicas de uso
+               </h3>
+
+               <p>1. Instalación o distribución de productos de software "pirateados" o de otro tipo que no tienen la
+                  licencia adecuada para su uso por parte del cliente. Warez y cualquier actividad relacionada
+                  (incluidos los hipervínculos en las páginas alojadas en nuestra red). Uso de BitTorrent para
+                  distribuir material ilegal y / o con derechos de autor sin el consentimiento expreso por escrito del
+                  titular de los derechos de autor.</p>
+
+               <p>2. Introducción de programas maliciosos en la red o servidores de ALOHOST u otros productos y
+                  servicios de ALOHOST (por ejemplo, virus, troyanos y gusanos).</p>
+
+               <p>3. Interferir o negar el servicio a cualquier usuario que no sea el anfitrión del cliente (por
+                  ejemplo, ataque de denegación de servicio).</p>
+
+               <p>4. Cualquier actividad relacionada con TOR/VPN o cualquier otra red y / o servicio de anonimato.</p>
+
+               <p>5. Cualquier actividad relacionada con la minería / agricultura / trazado de criptomonedas / monedas
+                  virtuales (Bitcoin, Ether, Monero, Chia, etc.).</p>
+
+               <p>6. ALOHOST puede suspender y/o terminar de inmediato el servicio del cliente por violación de
+                  cualquier disposición de esta política mediante notificación verbal o escrita, la cual se puede
+                  proporcionar por correo de voz o correo electrónico. Antes de la suspensión o rescisión, ALOHOST puede
+                  intentar trabajar con el Cliente para subsanar las infracciones de esta política y asegurarse de que
+                  no vuelva a ocurrir, sin embargo ALOHOST se reserva el derecho de suspender o rescindir en función de
+                  la primera infracción. No se otorgarán reembolsos ni créditos por servicios que se suspendan y/o
+                  cancelen por una violación de esta política.</p>
+
+
+
+            </div>
+            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+               
+               <h3 class="mb-2 fst-italic">Seccion 3. Acuerdo de servicio</h3>
+
+               <p>1. Garantía de instalación: Tras la recepción de un pedido, el pago total por parte del Cliente y la
+                  aprobación, ALOHOST instalará los productos o servicios solicitados para el uso del cliente en un
+                  plazo de (24 a 48) horas hábiles. ALOHOST puede estar agotado de vez en cuando en un producto o
+                  servicio en particular, en cuyo caso, ALOHOST puede retrasar la instalación hasta que el producto o
+                  servicio esté disponible. Si los productos o servicios no se entregan en un plazo de 48 horas, el
+                  cliente puede solicitar una tarifa mensual prorrateada en función de la duración de la demora. El
+                  cliente es responsable de solicitar este crédito de servicio y proporcionar evidencia para sustentar
+                  su reclamo al enviar un ticket de soporte dentro de los dos (2) días posteriores a la fecha del pedido
+                  original.</p>
+
+               <p>2. Garantía de disponibilidad de la red: ALOHOST garantiza un tiempo de actividad del 99% en su red.
+                  Si la red no está disponible durante más de 15 minutos consecutivos, el cliente puede solicitar un
+                  crédito de servicio basado en una tarifa mensual prorrateada igual a la duración de la interrupción.
+                  El cliente es responsable de solicitar este crédito de servicio y proporcionar evidencia para
+                  sustentar su reclamo al enviar un ticket de soporte dentro de los cinco (24) horas posteriores a la
+                  interrupción.</p>
+
+               <p>3. Garantía de servicios muonline: ALOHOST , garantiza la entrega de servicios muonline en un plazo no
+                  mayor a 24 horas . Funcionando cliente/server/pagina web.</p>
+
+               <p>4. Registros de Dominios: Todos los dominios registrados por ALOHOST , son unicamente para ser usados
+                  dentro de los servidores de ALOHOST , no se podra solicitar realizar el traspaso de dominio o cambio
+                  de dns a servidores externos, ALOHOST se derecha de forma excepcional en algunos casos de realizar
+                  estos cambios.</p>
+            </div>
+          </div>
+      </div>
+   </section>
+
+   <footer id="footer">
+      <div class="footer-top">
+         <div class="container">
+            <div class="row">
+
+               <div class="col-lg-3 col-md-6 footer-links">
+                  <h4>Hosting</h4>
+                  <ul>
+                     <li><i class="bx bx-chevron-right"></i> <a href="#">Web Hosting</a></li>
+                     <li><i class="bx bx-chevron-right"></i> <a href="#">Servidores Dedicados</a></li>
+                     <li><i class="bx bx-chevron-right"></i> <a href="#">Servidores Cloud VPS</a></li>
+                     <li><i class="bx bx-chevron-right"></i> <a href="#">Dominios</a></li>
+                  </ul>
+               </div>
+
+               <div class="col-lg-3 col-md-6 footer-links">
+                  <h4>Soporte</h4>
+                  <ul>
+                     <li><i class="bx bx-chevron-right"></i> <a href="#">Area de Clientes</a></li>
+                     <li><i class="bx bx-chevron-right"></i> <a href="#">Metodos de Pago</a></li>
+                     <li><i class="bx bx-chevron-right"></i> <a href="#">Contacto</a></li>
+                  </ul>
+               </div>
+
+               <div class="col-lg-3 col-md-6 footer-contact">
+                  <h4>Contáctanos</h4>
+                  <p>66 Flagler St 900<br>
+                     Miami, FL 33130-1807 United States <br>
+                     <strong>Teléfono:</strong> +58 4142543013<br>
+                     <strong>Correo:</strong> wilcar@gmail.com<br>
+                  </p>
+               </div>
+               <div class="col-lg-3 col-md-6 footer-info">
+                  <h3>AloHost</h3>
+                  <p>©2022 AloHost - Todos los derechos reservados</p>
+                  <div class="social-links d-flex">
+                     <a href="#" class="twitter"><i class="bi bi-whatsapp"></i></a>
+                     <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+                     <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+                     <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </footer>
+
+   <script src="purecounter_vanilla.js"></script>
+   <script src="main.js"></script>
+   <script src="bootstrap.bundle.min.js"></script>
+
+   <script>
+      var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+      var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+         return new bootstrap.Tooltip(tooltipTriggerEl)
+      })
+   </script>
+
+   
+
+</body>
+
+</html>
