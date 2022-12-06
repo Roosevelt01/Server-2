@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=ba, initial-scale=1.0">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   <!-- cdn icon -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+   <link href="bootstrap.min.css" rel="stylesheet">
+   <link rel="stylesheet" href="vps.css">
+   <title>Document</title>
+</head>
+
+<body>
+
+
+   <style>
+      body {
+          background-image: url(motpath.svg);
+      }
+      .dropdown:hover .dropdown-menu {
+         width: 20vw;
+         display: block;
+         margin-top: 0;
+         top: 130%;
+         border-radius: .5rem;
+         box-shadow: 0 2px 5px rgb(0 0 0 / 45%);
+      }
+
+      .contacto:hover .dropdown-menu {
+         width: 75vw;
+         right: 40%;
+         display: block;
+         margin-top: 0;
+      }
+
+      .badge {
+         background-color: black;
+         text-transform: uppercase;
+         font-size: .8rem;
+      }
+
+      .price {
+         font-size: 30px;
+         color: #121e25;
+         margin: 0px 7px 0px 0px;
+      }
+   </style>
+
+  
+<div class="fixed-top">
+   <section id="topbar" class="d-flex align-items-center fixed-top">
+     <div class="container-fluid d-flex justify-content-center justify-content-md-between">
+       <div class="contact-info d-flex align-items-center">
+         <i class="bi bi-envelope-fill"></i><a style="text-decoration:none;" href="wilcarserv@gmail.com">
+           wilcarserv@gmail.com</a>
+         <a href="https://api.whatsapp.com/send/?phone=14242664807&text&type=phone_number&app_absent=0"><i  class="bi bi-phone-fill phone-icon"> +58 41425413013</i></a>
+       </div>
+       <div class="social-links d-none d-md-block">
+         <a href="blog.html" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Blog" class="twitter"><i class="bi bi-chat-left-text-fill"></i></a>
+         <a href="#" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Síguenos en Facebook" class="facebook"><i  class="bi bi-facebook"></i></a>
+         <a href="#" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Síguenos en Instagram"  class="instagram"><i class="bi bi-instagram"></i></a>
+         <a href="#" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Contáctanos"  class="whatsapp"><i class="bi bi-whatsapp" ></i></a>
+       </div>
+     </div>
+   </section>
+ 
+     <!-- ======= Header ======= -->
+     <header id="header" class="fixed-top d-flex align-items-center shadow">
+       <div class="container d-flex align-items-center justify-content-between">
+         <h1 class="logo"><a href="index.html">AloHost</a></h1>  
+         <nav id="navbar" class="navbar">
+           <ul>
+             <li class="nav-link scrollto"><a href="index.html">Inicio</a></li>            
+             <li class="dropdown"><a href="#">Hosting <b class="badge ms-1">web</b><i class="bi bi-chevron-down"></i></a>
+               <ul>              
+                <li><a href="hosting.html">Web Hosting <br> Alojamiento web de alto perfomance</a></li>
+                <li><a href="reseller.html">Web Reseller <br> Planes para revendores de web hosting</a></li>
+                <li><a href="dominio.html">Dominios <br> Registra tu marca con un dominio</a></li>
+               </ul>
+             </li>
+             <li class="dropdown"><a href="#">Servidores <b class="badge ms-1">cloud</b><i class="bi bi-chevron-down"></i></a>
+               <ul>
+                <li><a href="dedicados.html">Servidores Dedicados <br> Todo el poder de un servidor dedicado</a></li>
+                <li><a href="vps.html">Servidores VPS <br> Planes cloud VPS al mejor costo</a></li>
+               </ul>
+             </li>
+             <li><a href="web.html">Páginas <b class="badge ms-1">Diseño</b></a>
+             </li>
+             <li class="dropdown"><a href="#">Contacto<b class="badge ms-1"> Soporte</b><i class="bi bi-chevron-down"></i></a>
+               <ul>               
+               <li><a href="contacto.html">Contáctanos</a></li>
+               <li><a href="condition.html">Legales</a></li>
+               </ul>
+             </li>
+           </ul>
+           <i class="bi bi-list mobile-nav-toggle"></i>  
+       </div>
+     </header>
+ </div>
+ 
+   <!-- information -->
+   <section id="home" class="pt-5">
+      <div class="container">
+         <div class="row align-items-center py-4">
+            <div class="col-sm-12 col-lg-12">
+               <div class="home_text" style="position: relative;">
+                  <h2>Servidores VPS</h2>
+                  <p>Servidores cloud vps de alto rendimiento</p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <!-- Boxes -->
+   <section id="icon-boxes" class="icon-boxes py-5">
+      <div class="container">
+         <div class="row">
+            <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+               <div class="col">
+                  <div class="card mb-4 rounded-3 shadow" style="background-color:#4c555d; border: none;">
+                     <div class="card-header py-3" style="background-color: #ebeff5 !important;">
+                        <div class="plans badge feat bg-grey">Mini</div>
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="85" height="100"  viewBox="0 0 32 32">
+                           <title>windowserver</title>
+                           <path fill="#5e686b" d="M5.938 10.575h8.119c0.225 0 0.4-0.181 0.4-0.4v-7.894c0-0.119-0.050-0.225-0.137-0.306-0.088-0.075-0.206-0.113-0.319-0.094l-8.119 1.125c-0.2 0.025-0.35 0.2-0.35 0.4v6.769c0.006 0.219 0.181 0.4 0.406 0.4zM6.338 3.75l7.319-1.013v7.031h-7.319v-6.019z"></path>
+                           <path fill="#5e686b" d="M15.431 10.575h10.638c0.225 0 0.4-0.181 0.4-0.4v-9.469c0-0.119-0.050-0.225-0.137-0.3s-0.206-0.112-0.319-0.094l-10.637 1.462c-0.2 0.025-0.35 0.2-0.35 0.4v8c0 0.219 0.181 0.4 0.406 0.4zM15.831 2.525l9.831-1.356v8.606h-9.831v-7.25z"></path>
+                           <path id="svg-ico" fill="#5e686b" d="M23.262 18.381c-0.887 0-1.606 0.719-1.606 1.606s0.719 1.606 1.606 1.606c0.887 0 1.606-0.719 1.606-1.606s-0.719-1.606-1.606-1.606zM23.262 20.794c-0.444 0-0.806-0.363-0.806-0.806s0.363-0.806 0.806-0.806c0.444 0 0.806 0.363 0.806 0.806s-0.363 0.806-0.806 0.806z"></path>
+                           <path fill="#5e686b" d="M6.338 11.944h7.319v3.069h0.806v-3.469c0-0.225-0.181-0.4-0.4-0.4h-8.125c-0.225 0-0.4 0.181-0.4 0.4v3.469h0.806l-0.006-3.069z"></path>
+                           <path fill="#5e686b" d="M15.831 11.944h9.831v3.069h0.806v-3.469c0-0.225-0.181-0.4-0.4-0.4h-10.637c-0.225 0-0.4 0.181-0.4 0.4v3.469h0.806l-0.006-3.069z"></path>
+                           <path id="svg-ico" fill="#5e686b" d="M27.325 15.012h-22.644c-0.962 0-1.744 0.719-1.744 1.606v6.731c0 0.887 0.781 1.606 1.744 1.606h22.644c0.962 0 1.738-0.719 1.738-1.606v-6.731c0.006-0.887-0.775-1.606-1.738-1.606zM28.262 23.35v0c0 0.444-0.419 0.806-0.938 0.806h-22.644c-0.519 0-0.938-0.363-0.938-0.806v-6.731c0-0.444 0.419-0.806 0.938-0.806h22.644c0.519 0 0.938 0.362 0.938 0.806v6.731z"></path>
+                           <path fill="#5e686b" d="M23.938 29.738h-6.375c-0.144-0.563-0.594-1.006-1.156-1.156v-2.063c0-0.225-0.181-0.4-0.4-0.4s-0.4 0.181-0.4 0.4v2.063c-0.563 0.144-1.012 0.594-1.156 1.156h-6.375c-0.225 0-0.4 0.181-0.4 0.4 0 0.225 0.181 0.4 0.4 0.4h6.375c0.181 0.694 0.806 1.206 1.556 1.206s1.381-0.512 1.556-1.206h6.375c0.225 0 0.4-0.181 0.4-0.4 0-0.225-0.181-0.4-0.4-0.4zM16 30.944c-0.444 0-0.8-0.363-0.806-0.806 0 0 0 0 0 0s0 0 0 0c0-0.444 0.363-0.806 0.806-0.806s0.806 0.363 0.806 0.806c0 0.444-0.363 0.806-0.806 0.806z"></path>
+                           </svg>
+                        <h3 class="my-2 fw-normal fs-2 text-muted fw-bolder">Cloud VPS 1</h3>
+                        <h5 class="my-0 fw-normal">Recursos garantizados</h5>
+                        <h3 class="card-title pricing-card-title"><sub>$</sub>10.00<small
+                              class="text-muted fw-light">/mensual</small></h3>
+                        <div class="d-flex justify-content-center align-items-center">
+                           <button type="button"
+                              class="btn btn-warning mt-3 fw-normal rounded-pill d-flex align-items-center"><i
+                                 class="bi bi-cart-check-fill me-1"></i> Ordernar Ahora</button>
+                        </div>
+                     </div>
+                     <div class="card-body mx-auto text-white">
+                        <ul class="list-unstyled mt-3 mb-4 fs-6 text-start">
+                           <li><i class="bi bi-cpu price"></i>XEON RYZEN EPYC 2 CORES</li>
+                           <li><i class="bi bi-device-ssd price"></i>2GB RAM DDR4</li>
+                           <li><i class="bi bi-safe2 price"></i>40GB SSD NVME</li>
+                           <li><i class="bi bi-reception-4 price"></i>1 Gbps Ilimitado</li>
+                           <li><i class="bi bi-layers price"></i>Protección DDOS</li>
+                           <li><i class="bi bi-cloud-arrow-up price"></i> Hosting Web Gratis</li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               <div class="col">
+                  <div class="card mb-4 rounded-3 shadow-sm" style="background-color: #6c767e; border: none;">
+                     <div class="card-header py-3" style="background-color: #ebeff5 !important;">
+                        <div class="plans badge feat bg-grey">Básico</div>
+                        
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="85" height="100"  viewBox="0 0 32 32">
+                           <title>windowserver</title>
+                           <path fill="#5e686b" d="M5.938 10.575h8.119c0.225 0 0.4-0.181 0.4-0.4v-7.894c0-0.119-0.050-0.225-0.137-0.306-0.088-0.075-0.206-0.113-0.319-0.094l-8.119 1.125c-0.2 0.025-0.35 0.2-0.35 0.4v6.769c0.006 0.219 0.181 0.4 0.406 0.4zM6.338 3.75l7.319-1.013v7.031h-7.319v-6.019z"></path>
+                           <path fill="#5e686b" d="M15.431 10.575h10.638c0.225 0 0.4-0.181 0.4-0.4v-9.469c0-0.119-0.050-0.225-0.137-0.3s-0.206-0.112-0.319-0.094l-10.637 1.462c-0.2 0.025-0.35 0.2-0.35 0.4v8c0 0.219 0.181 0.4 0.406 0.4zM15.831 2.525l9.831-1.356v8.606h-9.831v-7.25z"></path>
+                           <path id="svg-ico" fill="#5e686b" d="M23.262 18.381c-0.887 0-1.606 0.719-1.606 1.606s0.719 1.606 1.606 1.606c0.887 0 1.606-0.719 1.606-1.606s-0.719-1.606-1.606-1.606zM23.262 20.794c-0.444 0-0.806-0.363-0.806-0.806s0.363-0.806 0.806-0.806c0.444 0 0.806 0.363 0.806 0.806s-0.363 0.806-0.806 0.806z"></path>
+                           <path fill="#5e686b" d="M6.338 11.944h7.319v3.069h0.806v-3.469c0-0.225-0.181-0.4-0.4-0.4h-8.125c-0.225 0-0.4 0.181-0.4 0.4v3.469h0.806l-0.006-3.069z"></path>
+                           <path fill="#5e686b" d="M15.831 11.944h9.831v3.069h0.806v-3.469c0-0.225-0.181-0.4-0.4-0.4h-10.637c-0.225 0-0.4 0.181-0.4 0.4v3.469h0.806l-0.006-3.069z"></path>
+                           <path id="svg-ico" fill="#5e686b" d="M27.325 15.012h-22.644c-0.962 0-1.744 0.719-1.744 1.606v6.731c0 0.887 0.781 1.606 1.744 1.606h22.644c0.962 0 1.738-0.719 1.738-1.606v-6.731c0.006-0.887-0.775-1.606-1.738-1.606zM28.262 23.35v0c0 0.444-0.419 0.806-0.938 0.806h-22.644c-0.519 0-0.938-0.363-0.938-0.806v-6.731c0-0.444 0.419-0.806 0.938-0.806h22.644c0.519 0 0.938 0.362 0.938 0.806v6.731z"></path>
+                           <path fill="#5e686b" d="M23.938 29.738h-6.375c-0.144-0.563-0.594-1.006-1.156-1.156v-2.063c0-0.225-0.181-0.4-0.4-0.4s-0.4 0.181-0.4 0.4v2.063c-0.563 0.144-1.012 0.594-1.156 1.156h-6.375c-0.225 0-0.4 0.181-0.4 0.4 0 0.225 0.181 0.4 0.4 0.4h6.375c0.181 0.694 0.806 1.206 1.556 1.206s1.381-0.512 1.556-1.206h6.375c0.225 0 0.4-0.181 0.4-0.4 0-0.225-0.181-0.4-0.4-0.4zM16 30.944c-0.444 0-0.8-0.363-0.806-0.806 0 0 0 0 0 0s0 0 0 0c0-0.444 0.363-0.806 0.806-0.806s0.806 0.363 0.806 0.806c0 0.444-0.363 0.806-0.806 0.806z"></path>
+                           </svg>
+                        <h2 class="my-2 fw-normal fs-2 text-muted fw-bolder">Cloud VPS 2</h2>
+                        <h5 class="my-0 fw-normal">Recursos garantizados</h5>
+                        <h3 class="card-title pricing-card-title"><sub>$</sub>15.00<small
+                              class="text-muted fw-light">/mensual</small></h3>
+                        <div class="d-flex justify-content-center align-items-center">
+                           <button type="button"
+                              class="btn btn-warning mt-3 fw-normal rounded-pill d-flex align-items-center"><i
+                                 class="bi bi-cart-check-fill me-1"></i> Ordernar Ahora</button>
+                        </div>
+                     </div>
+                     <div class="card-body mx-auto text-white">
+                        <ul class="list-unstyled mt-3 mb-4 fs-6 text-start">
+                           <li><i class="bi bi-cpu price"></i>XEON RYZEN EPYC 2 CORES</li>
+                           <li><i class="bi bi-device-ssd price"></i>4GB RAM DDR4</li>
+                           <li><i class="bi bi-safe2 price"></i>40GB SSD NVME</li>
+                           <li><i class="bi bi-reception-4 price"></i>1 Gbps Ilimitado</li>
+                           <li><i class="bi bi-layers price"></i>Protección DDOS</li>
+                           <li><i class="bi bi-cloud-arrow-up price"></i> Hosting Web Gratis</li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               <div class="col">
+                  <div class="card mb-4 rounded-3 shadow-sm shadow-sm" style="background-color:#4c555d; border: none;">
+                     <div class="card-header py-3" style="background-color: #ebeff5 !important;">
+                        <div class="plans badge feat bg-grey">Avanzado</div>
+                        
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="85" height="100"  viewBox="0 0 32 32">
+                           <title>windowserver</title>
+                           <path fill="#5e686b" d="M5.938 10.575h8.119c0.225 0 0.4-0.181 0.4-0.4v-7.894c0-0.119-0.050-0.225-0.137-0.306-0.088-0.075-0.206-0.113-0.319-0.094l-8.119 1.125c-0.2 0.025-0.35 0.2-0.35 0.4v6.769c0.006 0.219 0.181 0.4 0.406 0.4zM6.338 3.75l7.319-1.013v7.031h-7.319v-6.019z"></path>
+                           <path fill="#5e686b" d="M15.431 10.575h10.638c0.225 0 0.4-0.181 0.4-0.4v-9.469c0-0.119-0.050-0.225-0.137-0.3s-0.206-0.112-0.319-0.094l-10.637 1.462c-0.2 0.025-0.35 0.2-0.35 0.4v8c0 0.219 0.181 0.4 0.406 0.4zM15.831 2.525l9.831-1.356v8.606h-9.831v-7.25z"></path>
+                           <path id="svg-ico" fill="#5e686b" d="M23.262 18.381c-0.887 0-1.606 0.719-1.606 1.606s0.719 1.606 1.606 1.606c0.887 0 1.606-0.719 1.606-1.606s-0.719-1.606-1.606-1.606zM23.262 20.794c-0.444 0-0.806-0.363-0.806-0.806s0.363-0.806 0.806-0.806c0.444 0 0.806 0.363 0.806 0.806s-0.363 0.806-0.806 0.806z"></path>
+                           <path fill="#5e686b" d="M6.338 11.944h7.319v3.069h0.806v-3.469c0-0.225-0.181-0.4-0.4-0.4h-8.125c-0.225 0-0.4 0.181-0.4 0.4v3.469h0.806l-0.006-3.069z"></path>
+                           <path fill="#5e686b" d="M15.831 11.944h9.831v3.069h0.806v-3.469c0-0.225-0.181-0.4-0.4-0.4h-10.637c-0.225 0-0.4 0.181-0.4 0.4v3.469h0.806l-0.006-3.069z"></path>
+                           <path id="svg-ico" fill="#5e686b" d="M27.325 15.012h-22.644c-0.962 0-1.744 0.719-1.744 1.606v6.731c0 0.887 0.781 1.606 1.744 1.606h22.644c0.962 0 1.738-0.719 1.738-1.606v-6.731c0.006-0.887-0.775-1.606-1.738-1.606zM28.262 23.35v0c0 0.444-0.419 0.806-0.938 0.806h-22.644c-0.519 0-0.938-0.363-0.938-0.806v-6.731c0-0.444 0.419-0.806 0.938-0.806h22.644c0.519 0 0.938 0.362 0.938 0.806v6.731z"></path>
+                           <path fill="#5e686b" d="M23.938 29.738h-6.375c-0.144-0.563-0.594-1.006-1.156-1.156v-2.063c0-0.225-0.181-0.4-0.4-0.4s-0.4 0.181-0.4 0.4v2.063c-0.563 0.144-1.012 0.594-1.156 1.156h-6.375c-0.225 0-0.4 0.181-0.4 0.4 0 0.225 0.181 0.4 0.4 0.4h6.375c0.181 0.694 0.806 1.206 1.556 1.206s1.381-0.512 1.556-1.206h6.375c0.225 0 0.4-0.181 0.4-0.4 0-0.225-0.181-0.4-0.4-0.4zM16 30.944c-0.444 0-0.8-0.363-0.806-0.806 0 0 0 0 0 0s0 0 0 0c0-0.444 0.363-0.806 0.806-0.806s0.806 0.363 0.806 0.806c0 0.444-0.363 0.806-0.806 0.806z"></path>
+                           </svg>
+                        <h2 class="my-2 fw-normal fs-2 text-muted fw-bolder">Cloud VPS 3</h2>
+                        <h5 class="my-0 fw-normal">Recursos garantizados</h5>
+                        <h3 class="card-title pricing-card-title"><sub>$</sub>20.00<small
+                              class="text-muted fw-light">/mensual</small></h3>
+
+                        <div class="d-flex justify-content-center align-items-center">
+                           <button type="button"
+                              class="btn btn-warning mt-3 fw-normal rounded-pill d-flex align-items-center"><i
+                                 class="bi bi-cart-check-fill me-1"></i> Ordernar Ahora</button>
+                        </div>
+                     </div>
+                     <div class="card-body mx-auto text-white">
+                        <ul class="list-unstyled mt-3 mb-4 fs-6 text-start">
+                           <li><i class="bi bi-cpu price"></i>XEON RYZEN EPYC 4 CORES</li>
+                           <li><i class="bi bi-device-ssd price"></i>6GB RAM DDR4</li>
+                           <li><i class="bi bi-safe2 price"></i>60GB SSD NVME</li>
+                           <li><i class="bi bi-reception-4 price"></i>1 Gbps Ilimitado</li>
+                           <li><i class="bi bi-layers price"></i>Protección DDOS</li>
+                           <li><i class="bi bi-cloud-arrow-up price"></i> Hosting Web Gratis</li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               <div class="col">
+                  <div class="card mb-4 rounded-3 shadow-sm"  style="background-color:#4c555d;border: none;">
+                     <div class="card-header py-3" style="background-color: #ebeff5 !important;">
+                        <div class="plans badge feat bg-grey">profesional</div>
+                        
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="85" height="100"  viewBox="0 0 32 32">
+                           <title>windowserver</title>
+                           <path fill="#5e686b" d="M5.938 10.575h8.119c0.225 0 0.4-0.181 0.4-0.4v-7.894c0-0.119-0.050-0.225-0.137-0.306-0.088-0.075-0.206-0.113-0.319-0.094l-8.119 1.125c-0.2 0.025-0.35 0.2-0.35 0.4v6.769c0.006 0.219 0.181 0.4 0.406 0.4zM6.338 3.75l7.319-1.013v7.031h-7.319v-6.019z"></path>
+                           <path fill="#5e686b" d="M15.431 10.575h10.638c0.225 0 0.4-0.181 0.4-0.4v-9.469c0-0.119-0.050-0.225-0.137-0.3s-0.206-0.112-0.319-0.094l-10.637 1.462c-0.2 0.025-0.35 0.2-0.35 0.4v8c0 0.219 0.181 0.4 0.406 0.4zM15.831 2.525l9.831-1.356v8.606h-9.831v-7.25z"></path>
+                           <path id="svg-ico" fill="#5e686b" d="M23.262 18.381c-0.887 0-1.606 0.719-1.606 1.606s0.719 1.606 1.606 1.606c0.887 0 1.606-0.719 1.606-1.606s-0.719-1.606-1.606-1.606zM23.262 20.794c-0.444 0-0.806-0.363-0.806-0.806s0.363-0.806 0.806-0.806c0.444 0 0.806 0.363 0.806 0.806s-0.363 0.806-0.806 0.806z"></path>
+                           <path fill="#5e686b" d="M6.338 11.944h7.319v3.069h0.806v-3.469c0-0.225-0.181-0.4-0.4-0.4h-8.125c-0.225 0-0.4 0.181-0.4 0.4v3.469h0.806l-0.006-3.069z"></path>
+                           <path fill="#5e686b" d="M15.831 11.944h9.831v3.069h0.806v-3.469c0-0.225-0.181-0.4-0.4-0.4h-10.637c-0.225 0-0.4 0.181-0.4 0.4v3.469h0.806l-0.006-3.069z"></path>
+                           <path id="svg-ico" fill="#5e686b" d="M27.325 15.012h-22.644c-0.962 0-1.744 0.719-1.744 1.606v6.731c0 0.887 0.781 1.606 1.744 1.606h22.644c0.962 0 1.738-0.719 1.738-1.606v-6.731c0.006-0.887-0.775-1.606-1.738-1.606zM28.262 23.35v0c0 0.444-0.419 0.806-0.938 0.806h-22.644c-0.519 0-0.938-0.363-0.938-0.806v-6.731c0-0.444 0.419-0.806 0.938-0.806h22.644c0.519 0 0.938 0.362 0.938 0.806v6.731z"></path>
+                           <path fill="#5e686b" d="M23.938 29.738h-6.375c-0.144-0.563-0.594-1.006-1.156-1.156v-2.063c0-0.225-0.181-0.4-0.4-0.4s-0.4 0.181-0.4 0.4v2.063c-0.563 0.144-1.012 0.594-1.156 1.156h-6.375c-0.225 0-0.4 0.181-0.4 0.4 0 0.225 0.181 0.4 0.4 0.4h6.375c0.181 0.694 0.806 1.206 1.556 1.206s1.381-0.512 1.556-1.206h6.375c0.225 0 0.4-0.181 0.4-0.4 0-0.225-0.181-0.4-0.4-0.4zM16 30.944c-0.444 0-0.8-0.363-0.806-0.806 0 0 0 0 0 0s0 0 0 0c0-0.444 0.363-0.806 0.806-0.806s0.806 0.363 0.806 0.806c0 0.444-0.363 0.806-0.806 0.806z"></path>
+                           </svg>
+                        <h3 class="my-2 fw-normal fs-2 text-muted fw-bolder">Cloud VPS 4</h3>
+                        <h5 class="my-0 fw-normal">Servidor semi administrados</h5>
+                        <h3 class="card-title pricing-card-title"><sub>$</sub>25.00<small
+                              class="text-muted fw-light">/mensual</small></h3>
+                        <div class="d-flex justify-content-center align-items-center">
+                           <button type="button"
+                              class="btn btn-warning mt-3 fw-normal rounded-pill d-flex align-items-center"><i
+                                 class="bi bi-cart-check-fill me-1"></i> Ordernar Ahora</button>
+                        </div>
+                     </div>
+                     <div class="card-body mx-auto text-white">
+                        <ul class="list-unstyled mt-3 mb-4 fs-6 text-start">
+                           <li><i class="bi bi-cpu price"></i>XEON RYZEN EPYC 4 CORES</li>
+                           <li><i class="bi bi-device-ssd price"></i>8GB RAM DDR4</li>
+                           <li><i class="bi bi-safe2 price"></i>60GB SSD NVME</li>
+                           <li><i class="bi bi-reception-4 price"></i>1 Gbps Ilimitado</li>
+                           <li><i class="bi bi-layers price"></i>Protección DDOS</li>
+                           <li><i class="bi bi-cloud-arrow-up price"></i> Hosting Web Gratis</li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               <div class="col">
+                  <div class="card mb-4 rounded-3 shadow-sm" style="background-color: #6c767e; border: none;">
+                     <div class="card-header py-3" style="background-color: #ebeff5 !important;">
+                        <div class="plans badge feat bg-grey">premium</div>
+                        
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="85" height="100"  viewBox="0 0 32 32">
+                           <title>windowserver</title>
+                           <path fill="#5e686b" d="M5.938 10.575h8.119c0.225 0 0.4-0.181 0.4-0.4v-7.894c0-0.119-0.050-0.225-0.137-0.306-0.088-0.075-0.206-0.113-0.319-0.094l-8.119 1.125c-0.2 0.025-0.35 0.2-0.35 0.4v6.769c0.006 0.219 0.181 0.4 0.406 0.4zM6.338 3.75l7.319-1.013v7.031h-7.319v-6.019z"></path>
+                           <path fill="#5e686b" d="M15.431 10.575h10.638c0.225 0 0.4-0.181 0.4-0.4v-9.469c0-0.119-0.050-0.225-0.137-0.3s-0.206-0.112-0.319-0.094l-10.637 1.462c-0.2 0.025-0.35 0.2-0.35 0.4v8c0 0.219 0.181 0.4 0.406 0.4zM15.831 2.525l9.831-1.356v8.606h-9.831v-7.25z"></path>
+                           <path id="svg-ico" fill="#5e686b" d="M23.262 18.381c-0.887 0-1.606 0.719-1.606 1.606s0.719 1.606 1.606 1.606c0.887 0 1.606-0.719 1.606-1.606s-0.719-1.606-1.606-1.606zM23.262 20.794c-0.444 0-0.806-0.363-0.806-0.806s0.363-0.806 0.806-0.806c0.444 0 0.806 0.363 0.806 0.806s-0.363 0.806-0.806 0.806z"></path>
+                           <path fill="#5e686b" d="M6.338 11.944h7.319v3.069h0.806v-3.469c0-0.225-0.181-0.4-0.4-0.4h-8.125c-0.225 0-0.4 0.181-0.4 0.4v3.469h0.806l-0.006-3.069z"></path>
+                           <path fill="#5e686b" d="M15.831 11.944h9.831v3.069h0.806v-3.469c0-0.225-0.181-0.4-0.4-0.4h-10.637c-0.225 0-0.4 0.181-0.4 0.4v3.469h0.806l-0.006-3.069z"></path>
+                           <path id="svg-ico" fill="#5e686b" d="M27.325 15.012h-22.644c-0.962 0-1.744 0.719-1.744 1.606v6.731c0 0.887 0.781 1.606 1.744 1.606h22.644c0.962 0 1.738-0.719 1.738-1.606v-6.731c0.006-0.887-0.775-1.606-1.738-1.606zM28.262 23.35v0c0 0.444-0.419 0.806-0.938 0.806h-22.644c-0.519 0-0.938-0.363-0.938-0.806v-6.731c0-0.444 0.419-0.806 0.938-0.806h22.644c0.519 0 0.938 0.362 0.938 0.806v6.731z"></path>
+                           <path fill="#5e686b" d="M23.938 29.738h-6.375c-0.144-0.563-0.594-1.006-1.156-1.156v-2.063c0-0.225-0.181-0.4-0.4-0.4s-0.4 0.181-0.4 0.4v2.063c-0.563 0.144-1.012 0.594-1.156 1.156h-6.375c-0.225 0-0.4 0.181-0.4 0.4 0 0.225 0.181 0.4 0.4 0.4h6.375c0.181 0.694 0.806 1.206 1.556 1.206s1.381-0.512 1.556-1.206h6.375c0.225 0 0.4-0.181 0.4-0.4 0-0.225-0.181-0.4-0.4-0.4zM16 30.944c-0.444 0-0.8-0.363-0.806-0.806 0 0 0 0 0 0s0 0 0 0c0-0.444 0.363-0.806 0.806-0.806s0.806 0.363 0.806 0.806c0 0.444-0.363 0.806-0.806 0.806z"></path>
+                           </svg>
+                        <h2 class="my-2 fw-normal fs-2 text-muted fw-bolder">Cloud VPS 5</h2>
+                        <h5 class="my-0 fw-normal">Servidor semi administrados</h5>
+                        <h3 class="card-title pricing-card-title"><sub>$</sub>35.00<small
+                              class="text-muted fw-light">/mensual</small></h3>
+                        <div class="d-flex justify-content-center align-items-center">
+                           <button type="button"
+                              class="btn btn-warning mt-3 fw-normal rounded-pill d-flex align-items-center"><i
+                                 class="bi bi-cart-check-fill me-1"></i> Ordernar Ahora</button>
+                        </div>
+                     </div>
+                     <div class="card-body mx-auto text-white">
+                        <ul class="list-unstyled mt-3 mb-4 fs-6 text-start">
+                           <li><i class="bi bi-cpu price"></i>XEON RYZEN EPYC 6 CORES</li>
+                           <li><i class="bi bi-device-ssd price"></i>12GB RAM DDR4</li>
+                           <li><i class="bi bi-safe2 price"></i>80GB SSD NVME</li>
+                           <li><i class="bi bi-reception-4 price"></i>1 Gbps Ilimitado</li>
+                           <li><i class="bi bi-layers price"></i>Protección DDOS</li>
+                           <li><i class="bi bi-cloud-arrow-up price"></i> Hosting Web Gratis</li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               <div class="col">
+                  <div class="card mb-4 rounded-3 shadow-sm shadow-sm"  style="background-color:#4c555d;border: none;">
+                     <div class="card-header py-3" style="background-color: #ebeff5 !important;">
+                        <div class="plans badge feat bg-grey">extremo</div>
+                        
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="85" height="100"  viewBox="0 0 32 32">
+                           <title>windowserver</title>
+                           <path fill="#5e686b" d="M5.938 10.575h8.119c0.225 0 0.4-0.181 0.4-0.4v-7.894c0-0.119-0.050-0.225-0.137-0.306-0.088-0.075-0.206-0.113-0.319-0.094l-8.119 1.125c-0.2 0.025-0.35 0.2-0.35 0.4v6.769c0.006 0.219 0.181 0.4 0.406 0.4zM6.338 3.75l7.319-1.013v7.031h-7.319v-6.019z"></path>
+                           <path fill="#5e686b" d="M15.431 10.575h10.638c0.225 0 0.4-0.181 0.4-0.4v-9.469c0-0.119-0.050-0.225-0.137-0.3s-0.206-0.112-0.319-0.094l-10.637 1.462c-0.2 0.025-0.35 0.2-0.35 0.4v8c0 0.219 0.181 0.4 0.406 0.4zM15.831 2.525l9.831-1.356v8.606h-9.831v-7.25z"></path>
+                           <path id="svg-ico" fill="#5e686b" d="M23.262 18.381c-0.887 0-1.606 0.719-1.606 1.606s0.719 1.606 1.606 1.606c0.887 0 1.606-0.719 1.606-1.606s-0.719-1.606-1.606-1.606zM23.262 20.794c-0.444 0-0.806-0.363-0.806-0.806s0.363-0.806 0.806-0.806c0.444 0 0.806 0.363 0.806 0.806s-0.363 0.806-0.806 0.806z"></path>
+                           <path fill="#5e686b" d="M6.338 11.944h7.319v3.069h0.806v-3.469c0-0.225-0.181-0.4-0.4-0.4h-8.125c-0.225 0-0.4 0.181-0.4 0.4v3.469h0.806l-0.006-3.069z"></path>
+                           <path fill="#5e686b" d="M15.831 11.944h9.831v3.069h0.806v-3.469c0-0.225-0.181-0.4-0.4-0.4h-10.637c-0.225 0-0.4 0.181-0.4 0.4v3.469h0.806l-0.006-3.069z"></path>
+                           <path id="svg-ico" fill="#5e686b" d="M27.325 15.012h-22.644c-0.962 0-1.744 0.719-1.744 1.606v6.731c0 0.887 0.781 1.606 1.744 1.606h22.644c0.962 0 1.738-0.719 1.738-1.606v-6.731c0.006-0.887-0.775-1.606-1.738-1.606zM28.262 23.35v0c0 0.444-0.419 0.806-0.938 0.806h-22.644c-0.519 0-0.938-0.363-0.938-0.806v-6.731c0-0.444 0.419-0.806 0.938-0.806h22.644c0.519 0 0.938 0.362 0.938 0.806v6.731z"></path>
+                           <path fill="#5e686b" d="M23.938 29.738h-6.375c-0.144-0.563-0.594-1.006-1.156-1.156v-2.063c0-0.225-0.181-0.4-0.4-0.4s-0.4 0.181-0.4 0.4v2.063c-0.563 0.144-1.012 0.594-1.156 1.156h-6.375c-0.225 0-0.4 0.181-0.4 0.4 0 0.225 0.181 0.4 0.4 0.4h6.375c0.181 0.694 0.806 1.206 1.556 1.206s1.381-0.512 1.556-1.206h6.375c0.225 0 0.4-0.181 0.4-0.4 0-0.225-0.181-0.4-0.4-0.4zM16 30.944c-0.444 0-0.8-0.363-0.806-0.806 0 0 0 0 0 0s0 0 0 0c0-0.444 0.363-0.806 0.806-0.806s0.806 0.363 0.806 0.806c0 0.444-0.363 0.806-0.806 0.806z"></path>
+                           </svg>
+                        <h2 class="my-2 fw-normal fs-2 text-muted fw-bolder">Cloud VPS 6</h2>
+                        <h5 class="my-0 fw-normal">Recursos garantizados</h5>
+                        <h3 class="card-title pricing-card-title"><sub>$</sub>45.00<small
+                              class="text-muted fw-light">/mensual</small></h3>
+
+                        <div class="d-flex justify-content-center align-items-center">
+                           <button type="button"
+                              class="btn btn-warning mt-3 fw-normal rounded-pill d-flex align-items-center"><i
+                                 class="bi bi-cart-check-fill me-1"></i> Ordernar Ahora</button>
+                        </div>
+                     </div>
+                     <div class="card-body mx-auto text-white">
+                        <ul class="list-unstyled mt-3 mb-4 fs-6 text-start">
+                           <li><i class="bi bi-cpu price"></i>XEON RYZEN EPYC 8 CORES</li>
+                           <li><i class="bi bi-device-ssd price"></i>16GB RAM DDR4</li>
+                           <li><i class="bi bi-safe2 price"></i>120GB SSD NVME</li>
+                           <li><i class="bi bi-reception-4 price"></i>1 Gbps Ilimitado</li>
+                           <li><i class="bi bi-layers price"></i>Protección DDOS</li>
+                           <li><i class="bi bi-cloud-arrow-up price"></i> Hosting Web Gratis</li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+
+            </div>
+         </div>
+      </div>
+   </section>
+
+   
+  <section style="background-image: url(v1016-a-09.jpg); background-size: cover;
+  background-position: center; background-position-y: center;">
+   <div class="container">
+     <div class="row">
+       <div class="table-responsive py-5">
+         <div class="text-center">
+            <h1 class="fs-1 fw-bolder">Especificaciones Técnicas Reseller</h1>
+         </div>
+         <table class="table text-center">
+           <thead>
+             <tr>
+               <th style="width: 22%;">Software <b>plus</b></th>
+               <th style="width: 22%;">Base de Datos</th>
+               <th style="width: 22%;">Software Adicional</th>
+             </tr>
+           </thead>   
+           <tbody>
+               <td>PHP 5.6/7.2/7.4/8.1</td>
+               <td>MySQL 5.6</td>
+               <td>Zend Engine</td>
+             </tr>
+             <tr>
+               <td>LiteSpeed Recapchat</td>
+               <td>phpMyAdmin 4.6.6</td>
+               <td>Zend Optimizer</td>
+             </tr>
+             <tr>
+               <td>Python 2.6.6</td>
+               <td>Soporte FTP</td>
+               <td>Zend Guard Loader</td>
+             </tr>
+             <td>PostgreSQL</td>
+             <td>MSSQL Conexion 1433 Incluida</td>
+             <td>ionCube Loader</td>
+           </tr>
+           </tbody>
+         </table>
+       </div>
+     </div>
+   </div>
+ </section>
+
+
+
+   <footer id="footer">
+      <div class="footer-top">
+         <div class="container">
+            <div class="row">
+
+               <div class="col-lg-3 col-md-6 footer-links">
+                  <h4>Hosting</h4>
+                  <ul>
+                     <li><i class="bx bx-chevron-right"></i> <a href="#">Web Hosting</a></li>
+                     <li><i class="bx bx-chevron-right"></i> <a href="#">Servidores Dedicados</a></li>
+                     <li><i class="bx bx-chevron-right"></i> <a href="#">Servidores Cloud VPS</a></li>
+                     <li><i class="bx bx-chevron-right"></i> <a href="#">Dominios</a></li>
+                  </ul>
+               </div>
+
+               <div class="col-lg-3 col-md-6 footer-links">
+                  <h4>Soporte</h4>
+                  <ul>
+                     <li><i class="bx bx-chevron-right"></i> <a href="#">Area de Clientes</a></li>
+                     <li><i class="bx bx-chevron-right"></i> <a href="#">Metodos de Pago</a></li>
+                     <li><i class="bx bx-chevron-right"></i> <a href="#">Contacto</a></li>
+                  </ul>
+               </div>
+
+               <div class="col-lg-3 col-md-6 footer-contact">
+                  <h4>Contact Us</h4>
+                  <p>66 Flagler St 900<br>
+                     Miami, FL 33130-1807 United States <br>
+                     <strong>Teléfono:</strong> +58 4142543013<br>
+                     <strong>Correo:</strong> wilcar@gmail.com<br>
+                  </p>
+               </div>
+               <div class="col-lg-3 col-md-6 footer-info">
+                  <h3>AloHost</h3>
+                  <p>©2022 AloHost - Todos los derechos reservados</p>
+                  <div class="social-links d-flex">
+                     <a href="#" class="twitter"><i class="bi bi-whatsapp"></i></a>
+                     <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+                     <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+                     <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </footer>
+
+   <script src="purecounter_vanilla.js"></script>
+   <script src="main.js"></script>
+   <script src="bootstrap.bundle.min.js"></script>
+
+   <script>
+      var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+      var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+         return new bootstrap.Tooltip(tooltipTriggerEl)
+      })
+   </script>
+
+</body>
+
+</html>

@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=ba, initial-scale=1.0">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   <!-- cdn icon -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+   <link href="bootstrap.min.css" rel="stylesheet">
+   <link rel="stylesheet" href="web.css">
+   <title>Document</title>
+</head>
+
+<body>
+
+
+   <style>
+      body{
+         background-image: url(motpath.svg);
+      }
+
+      .dropdown:hover .dropdown-menu {
+         width: 20vw;
+         display: block;
+         margin-top: 0;
+         top: 130%;
+         border-radius: .5rem;
+         box-shadow: 0 2px 5px rgb(0 0 0 / 45%);
+      }
+
+      .contacto:hover .dropdown-menu {
+         width: 75vw;
+         right: 40%;
+         display: block;
+         margin-top: 0;
+      }
+
+      .badge {
+         background-color:black;
+         text-transform: uppercase;
+         font-size: .7.2rem;
+      }
+
+      .price {
+         font-size: 30px;
+         color: #121e25;
+         margin: 0px 7px 0px 0px;
+      }
+
+      .service-item i{
+        font-size: 30px;
+        color: black;
+      }
+   </style>
+
+  
+<div class="fixed-top">
+   <section id="topbar" class="d-flex align-items-center fixed-top">
+     <div class="container-fluid d-flex justify-content-center justify-content-md-between">
+       <div class="contact-info d-flex align-items-center">
+         <i class="bi bi-envelope-fill"></i><a style="text-decoration:none;" href="wilcarserv@gmail.com">
+           wilcarserv@gmail.com</a>
+         <i class="bi bi-phone-fill phone-icon"></i> +58 41425413013
+       </div>
+       <div class="social-links d-none d-md-block">
+         <a href="blog.html" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Blog" class="twitter"><i class="bi bi-chat-left-text-fill"></i></a>
+         <a href="#" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Síguenos en Facebook" class="facebook"><i  class="bi bi-facebook"></i></a>
+         <a href="#" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Síguenos en Instagram"  class="instagram"><i class="bi bi-instagram"></i></a>
+         <a href="#" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Contáctanos"  class="whatsapp"><i class="bi bi-whatsapp" ></i></a>
+       </div>
+     </div>
+   </section>
+ 
+     <!-- ======= Header ======= -->
+     <header id="header" class="fixed-top d-flex align-items-center shadow">
+       <div class="container d-flex align-items-center justify-content-between">
+         <h1 class="logo"><a href="index.html">AloHost</a></h1>  
+         <nav id="navbar" class="navbar">
+           <ul>
+             <li class="nav-link scrollto"><a href="index.html">Inicio</a></li>            
+             <li class="dropdown"><a href="#">Hosting <b class="badge ms-1">web</b><i class="bi bi-chevron-down"></i></a>
+               <ul>              
+                <li><a href="hosting.html">Web Hosting <br> Alojamiento web de alto perfomance</a></li>
+                <li><a href="reseller.html">Web Reseller <br> Planes para revendores de web hosting</a></li>
+                <li><a href="dominio.html">Dominios <br> Registra tu marca con un dominio</a></li>
+               </ul>
+             </li>
+             <li class="dropdown"><a href="#">Servidores <b class="badge ms-1">cloud</b><i class="bi bi-chevron-down"></i></a>
+               <ul>
+                <li><a href="dedicados.html">Servidores Dedicados <br> Todo el poder de un servidor dedicado</a></li>
+                <li><a href="vps.html">Servidores VPS <br> Planes cloud VPS al mejor costo</a></li>
+               </ul>
+             </li>
+             <li><a href="web.html">Páginas <b class="badge ms-1">Diseño</b></a>
+             </li>
+             <li class="dropdown"><a href="#">Contacto<b class="badge ms-1"> Soporte</b><i class="bi bi-chevron-down"></i></a>
+               <ul>               
+               <li><a href="pay.html">Métodos de pago</a></li>
+               <li><a href="contacto.html">Contáctanos</a></li>
+               <li><a href="condition.html">Legales</a></li>
+               </ul>
+             </li>
+           </ul>
+           <i class="bi bi-list mobile-nav-toggle"></i>  
+       </div>
+     </header>
+ </div>
+ 
+  <section id="hero" class="hero d-flex align-items-center pt-40">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 d-flex flex-column mt-5">
+          <h1 data-aos="fade-up">¡DIGITALIZAMOS TU NEGOCIO!</h1>
+          <P>Nuestro propósito es ayudar a crecer tu negocio y darte a conocer en el mundo digital, usamos nuestros conocimientos y las herramientas necesarias para hacerlo posible.</P>
+          <div data-aos="fade-up" data-aos-delay="600">
+            <div class="text-center text-lg-start">
+              <a href="#about" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
+                <span>Leer más</span>
+                <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 hero-img" data-aos="zoom-out" data-aos-delay="200">
+            <img src="1BreakCreativo-tablet.png" class="img-fluid" alt="">
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+   
+ <!-- Boxes -->
+ <section id="icon-boxes" class="icon-boxes py-4" style="border:none;">
+   <div class="container">
+     <div class="row">
+       <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+         <div class="col">
+           <div class="card mb-4 rounded-4" style="background-color:#4c555d; border: none;">
+             <div class="card-header py-3" style="background-color: #ebeff5 !important;">
+               <img src="corpartive.webp" class="img-fluid" width="250" height="100" alt="">
+               <h3 class="my-2 fw-normal fs-3 fw-bolder">Web informativa</h3>
+               <h3 class="card-title pricing-card-title"><sub>$</sub>150</h3>
+               <h3 class="card-title pricing-card-title text-decoration-line-through"><sub>$</sub>170.00</h3>
+               <div class="d-flex justify-content-center align-items-center">
+                 <button type="button" class="btn btn-warning mt-3 fw-normal rounded-pill d-flex align-items-center"><i
+                     class="bi bi-cart-check-fill me-1"></i> Ordernar Ahora</button>
+               </div>
+             </div>
+             <div class="card-body mx-auto text-white">
+               <ul class="list-unstyled mt-3 mb-4 fs-5 text-start">
+                 <li><i class="bi bi-pc-display-horizontal price"></i>Hosting Personal</li>
+                 <li><i class="bi bi-speedometer price"></i>Dominio.com Gratis</li>
+                 <li><i class="bi bi-envelope price"></i>Página Web Auto administrable</li>
+                 <li><i class="bi bi-globe price"></i>Acceso Independiten a CPANEL</li>
+                 <li><i class="bi bi-boxes price"></i>Correo Corporativo</li>
+               </ul>
+             </div>
+           </div>
+         </div>
+         <div class="col">
+           <div class="card mb-4 rounded-3 shadow-sm" style="background-color: #6c767e; border: none;">
+             <div class="card-header py-3" style="background-color: #ebeff5 !important;">
+               <img src="corpartive.webp" class="img-fluid" width="250" height="100" alt="">
+               <h3 class="my-2 fw-normal fs-3 fw-bolder">Web Corporativa</h3>
+               <h3 class="card-title pricing-card-title"><sub>$</sub>220</h3>
+               <h3 class="card-title pricing-card-title text-decoration-line-through"><sub>$</sub>250.00</h3>
+               <div class="d-flex justify-content-center align-items-center">
+                 <button type="button" class="btn btn-warning mt-3 fw-normal rounded-pill d-flex align-items-center"><i
+                     class="bi bi-cart-check-fill me-1"></i> Ordernar Ahora</button>
+               </div>
+             </div>
+             <div class="card-body mx-auto  text-white">
+               <ul class="list-unstyled mt-3 mb-4 fs-5 text-start">
+                 <li><i class="bi bi-pc-display-horizontal price"></i>Hosting Personal</li>
+                 <li><i class="bi bi-speedometer price"></i>Dominio.com Gratis</li>
+                 <li><i class="bi bi-envelope price"></i>Página Web Auto administrable</li>
+                 <li><i class="bi bi-globe price"></i>Acceso Independiten a CPANEL</li>
+                 <li><i class="bi bi-boxes price"></i>Correo Corporativo</li>
+                 <li><i class="bi bi-boxes bi bi-window-stack price"></i>10 Secciones</li>
+               </ul>
+             </div>
+           </div>
+         </div>
+         <div class="col">
+           <div class="card mb-4 rounded-3 shadow-sm" style="background-color:#4c555d; border: none;">
+             <div class="card-header py-3"  style="background-color: #ebeff5 !important;">
+               <img src="corpartive.webp" class="img-fluid" width="250" height="100" alt="">
+               <h3 class="my-2 fw-normal fs-3 fw-bolder">Tienda Ecommerce</h3>
+               <h3 class="card-title pricing-card-title">Desde <sub>$</sub>559</h3>
+               <div class="d-flex justify-content-center align-items-center">
+                 <button type="button" class="btn btn-warning mt-3 fw-normal rounded-pill d-flex align-items-center"><i
+                     class="bi bi-cart-check-fill me-1"></i> Ordernar Ahora</button>
+               </div>
+             </div>
+             <div class="card-body mx-auto text-white">
+               <ul class="list-unstyled mt-3 mb-4 fs-5 text-start">
+                 <li><i class="bi bi-pc-display-horizontal price"></i>Hosting Personal</li>
+                 <li><i class="bi bi-speedometer price"></i>Dominio.com Gratis</li>
+                 <li><i class="bi bi-envelope price"></i>Página Web Auto administrable</li>
+                 <li><i class="bi bi-globe price"></i>Acceso Independiten a CPANEL</li>
+                 <li><i class="bi bi-boxes price"></i>Correo Corporativo</li>
+                 <li><i class="bi bi-window-stack price"></i>10 Secciones</li>
+               </ul>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+ </section>
+
+ <section class="service section py-5" style="background: #fafafa;">
+	<div class="container-fluid p-0">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="section-title">
+					<h2 class="text-uppercase">Etapas del Diseño Web</h2>
+				</div>
+			</div>
+		</div>
+		<div class="row no-gutters">
+			<div class="col-lg-6 align-self-center">
+				<!-- Feature Image -->
+				<div class="service-thumb left" data-aos="fade-right">
+					<img class="img-fluid" src="corporative.png" alt="iphone-ipad">
+				</div>
+			</div>
+			<div class="col-lg-5 mr-auto align-self-center">
+				<div class="service-box">
+					<div class="row align-items-center">
+						<div class="col-md-6 col-xs-12">
+							<!-- Service 01 -->
+							<div class="service-item">
+								<!-- Icon -->
+								<i class="bi bi-lightbulb service"></i>
+								<!-- Heading -->
+								<h3>Investigación</h3>
+								<!-- Description -->
+								<p>Hacemos un análisis general del proyecto, midiendo el alcance y los objetivos del mismo.</p>
+							</div>
+						</div>
+						<div class="col-md-6 col-xs-12">
+							<!-- Service 01 -->
+							<div class="service-item">
+								<!-- Icon -->
+								<i class="bi bi-brush-fill service"></i>
+								<!-- Heading -->
+								<h3>Diseño UX/UI</h3>
+								<!-- Description -->
+								<p>Realizamos un diseño profesional, de alto impacto, atractivo y pregnante adaptado a las necesidades del cliente. </p>
+							</div>
+						</div>
+						<div class="col-md-6 col-xs-12">
+							<!-- Service 01 -->
+							<div class="service-item">
+								<!-- Icon -->
+								<i class="bi bi-diagram-3 service"></i>
+								<!-- Heading -->
+								<h3>Desarrollo</h3>
+								<!-- Description -->
+								<p>Hacemos la codificación bajo los estándares y normas de la W3C. Se pasa a maquetar y programar el sitio para su pronta puesta online.</p>
+							</div>
+						</div>
+						<div class="col-md-6 col-xs-12">
+							<!-- Service 01 -->
+							<div class="service-item">
+								<!-- Icon -->
+								<i class="bi bi-tools service"></i>
+								<!-- Heading -->
+								<h3>Optimización</h3>
+								<!-- Description -->
+								<p>Se deja contemplada la necesidad de adquirir un servicio de marketing online. El sitio es creado con URLs semánticas, titulos y meta description custom.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+  
+   <footer id="footer">
+      <div class="footer-top">
+         <div class="container">
+            <div class="row">
+
+               <div class="col-lg-3 col-md-6 footer-links">
+                  <h4>Hosting</h4>
+                  <ul>
+                     <li><i class="bx bx-chevron-right"></i> <a href="#">Web Hosting</a></li>
+                     <li><i class="bx bx-chevron-right"></i> <a href="#">Servidores Dedicados</a></li>
+                     <li><i class="bx bx-chevron-right"></i> <a href="#">Servidores Cloud VPS</a></li>
+                     <li><i class="bx bx-chevron-right"></i> <a href="#">Dominios</a></li>
+                  </ul>
+               </div>
+
+               <div class="col-lg-3 col-md-6 footer-links">
+                  <h4>Soporte</h4>
+                  <ul>
+                     <li><i class="bx bx-chevron-right"></i> <a href="#">Area de Clientes</a></li>
+                     <li><i class="bx bx-chevron-right"></i> <a href="#">Metodos de Pago</a></li>
+                     <li><i class="bx bx-chevron-right"></i> <a href="#">Contacto</a></li>
+                  </ul>
+               </div>
+
+               <div class="col-lg-3 col-md-6 footer-contact">
+                  <h4>Contáctanos</h4>
+                  <p>66 Flagler St 900<br>
+                     Miami, FL 33130-1807 United States <br>
+                     <strong>Teléfono:</strong> +58 4142543013<br>
+                     <strong>Correo:</strong> wilcar@gmail.com<br>
+                  </p>
+               </div>
+               <div class="col-lg-3 col-md-6 footer-info">
+                  <h3>AloHost</h3>
+                  <p>©2022 AloHost - Todos los derechos reservados</p>
+                  <div class="social-links d-flex">
+                     <a href="#" class="twitter"><i class="bi bi-whatsapp"></i></a>
+                     <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+                     <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+                     <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </footer>
+
+   <script src="purecounter_vanilla.js"></script>
+   <script src="main.js"></script>
+   <script src="bootstrap.bundle.min.js"></script>
+
+   <script>
+      var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+      var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+         return new bootstrap.Tooltip(tooltipTriggerEl)
+      })
+   </script>
+
+</body>
+
+</html>
